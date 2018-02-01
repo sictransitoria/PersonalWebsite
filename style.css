@@ -109,3 +109,101 @@ body {
 
 body {
 	font-family: Avenir Next, 'sans-serif';
+}
+
+.navigation {
+	width: 95%;
+	margin: 0 auto;
+
+}
+
+.navigation ul {
+	list-style-type: none;
+	float: right;
+	padding: 0px 0px 0px 0px;
+	position: static;
+
+
+}
+
+.navigation li {
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 100;
+	margin: 0px 30px 0px 0px;
+	padding: 0px;
+
+}
+
+.navigation a {
+	color: #000;
+	text-decoration: none;
+	padding: 10px;
+
+}
+
+.navigation a:hover {
+	background-color: #d9d9d9;
+	opacity: .2;
+
+}
+
+.navigation h1 {
+	font-weight: 100;
+	border-style: solid;
+	border-width: 1px;
+	text-align: center;
+	padding: 20px 25px 20px 25px;
+	float: center;
+	margin: 25px;
+
+}
+
+.image_tkover img {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0px 20px 0px;
+
+}
+
+.Technical_Creative {
+	margin: 0px 30px 0px 30px;
+
+}
+
+.Technical_Creative h2 {
+	font-size: 30px;
+	font-weight: 100;
+	letter-spacing: 1px;
+
+}
+
+.Technical_Creative p {
+	font-weight: 100;
+	font-size: 20px;
+	padding: 15px 0px 40px 0px;
+
+}
+
+.row {
+	padding: 50px 30px 0px 50px;
+
+}
+
+.gallery_header h1 {
+	font-size: 70px;
+	margin: 0px 0px 0px 50px;
+	padding: 30px 0px 0px 5px;
+	font-weight: 100;
+	letter-spacing: .5px;
+	clear: both;
+
+}
+
+.back_to_top {
+	text-align: center;
+	margin: 40px 0px 20px 0px;
+
+}
+
+}

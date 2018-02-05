@@ -103,6 +103,13 @@ body {
 
 }
 
+.contactinfo p {
+	display: inline-block;
+	margin: 100px 0px 0px 95px;
+	padding: 0px 0px 0px 0px;
+
+}
+
 }
 
 @media only screen and (max-width: 500px) {

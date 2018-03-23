@@ -19,7 +19,7 @@ body {
 	list-style-type: none;
 	float: right;
 	padding: 20px 0px 0px 0px;
-	position: static;
+	flex: auto;
 
 }
 
@@ -42,6 +42,7 @@ body {
 .navigation a:hover {
 	background-color: #d9d9d9;
 	opacity: .3;
+	border-radius: 5px;
 
 }
 
@@ -150,7 +151,6 @@ body {
 	padding: 0px 0px 0px 0px;
 	position: relative;
 
-
 }
 
 .navigation li {
@@ -159,6 +159,7 @@ body {
 	font-weight: 100;
 	margin: 0px 28px 0px 0px;
 	padding: 0px;
+	
 
 }
 

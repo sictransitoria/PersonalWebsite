@@ -78,19 +78,29 @@ body {
 
 .Technical_Creative p {
 	font-weight: 100;
-	font-size: 20px;
-	padding: 15px 0px 40px 0px;
+	font-size: 24px;
+	padding: 20px 0px 0px 0px;
 
 }
 
 .row {
-	padding: 50px 30px 0px 50px;
+	padding: 30px 30px 30px 50px;
 
 }
 
 .gallery_header h1 {
 	font-size: 70px;
 	margin: 0px 0px 0px 50px;
+	padding: 30px 0px 0px 5px;
+	font-weight: 100;
+	letter-spacing: .5px;
+	clear: both;
+
+}
+
+.sub-div h3 {
+	font-size: 30px;
+	margin: 20px 0px 0px 50px;
 	padding: 30px 0px 0px 5px;
 	font-weight: 100;
 	letter-spacing: .5px;
@@ -201,10 +211,11 @@ body {
 }
 
 .Technical_Creative h2 {
-	font-size: 30px;
+	font-size: 25px;
 	font-weight: 100;
 	letter-spacing: 1px;
-	line-height: 39px;
+	line-height: 30px;
+	display: none;
 
 }
 
@@ -216,7 +227,7 @@ body {
 }
 
 .row {
-	padding: 30px 55px 0px 60px;
+	padding: 30px 55px 20px 60px;
 
 }
 
@@ -224,6 +235,16 @@ body {
 	font-size: 40px;
 	margin: 0px 0px 0px 30px;
 	padding: 30px 0px 0px 3px;
+	font-weight: 100;
+	letter-spacing: .5px;
+	clear: both;
+
+}
+
+.sub-div h3 {
+	font-size: 16px;
+	margin: 20px 0px 0px 50px;
+	padding: 30px 0px 0px 5px;
 	font-weight: 100;
 	letter-spacing: .5px;
 	clear: both;
@@ -252,3 +273,5 @@ body {
 	}
 
 }
+
+/* TAK */

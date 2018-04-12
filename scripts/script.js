@@ -10,3 +10,7 @@ function navBar() {
     }
 
 };
+
+if($(window).width() <= 860) {
+  $('ul').hide();
+}

@@ -197,76 +197,45 @@ body {
 
 }
 
-/*.navigation {
-	width: 95%;
-	margin: 0 auto;
-
-}*/
-
 .navigation ul {
 	list-style-type: none;
-/*	float: right;
-	margin: 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
-	position: relative;*/
+	margin: 0px 45px 0px 0px;
 
 }
-
-/*.navigation li {
-	display: inline-block;
-	font-size: 13px;
-	font-weight: 100;
-	margin: 0px 28px 0px 0px;
-	padding: 0px;
-	
-
-}*/
-
-/* OLD */
-
-/*.navigation a {
-	color: #000;
-	text-decoration: none;
-	padding: 10px;
-
-}
-
-.navigation a:hover {
-	transition: .7s;
-	opacity: .1;
-	font-color: #696969;
-
-}*/
-
-/* NEW */
-
 
 #myTopNav a:before {
 	visibility: hidden;
 
 }
 
-.navigation a {
+.navigation li a {
     float: left;
-    display: block;
-    color: #f2f2f2;
+    display: none;
+    color: #000000;
     text-align: left;
     padding: 10px 10px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 100;
+    transition: .6s;
 
 }
 
 .navigation a:hover {
-    background-color: #ddd;
-    color: #000000;
+    opacity: .1;
+    color: #696969;
 
 }
 
 .navigation a.icon {
-    float: left
+    float: left;
     display: block;
+    text-decoration: none;
+    margin: 0px 130px;
+	font-size: 30px;
+	color: #000000;
+	transition: .6s;
+	font-weight: 100;
   
 }
 
@@ -288,10 +257,6 @@ body {
     text-align: center;
  
  }
-
-
-
-/* END NEW */
 
 .navigation h1 {
 	font-weight: 100;
@@ -333,7 +298,7 @@ body {
 }
 
 .row {
-	margin: 0px 30px 0px 30px;
+	margin: 0px 0px 10px 20px
 
 }
 
@@ -349,7 +314,7 @@ body {
 
 .sub-div h3 {
 	font-size: 25px;
-	margin: 10px 25px 10px 53px;
+	margin: 10px 5px 10px 45px;
 	padding: 30px 0px 0px 0px;
 	font-weight: 100;
 	letter-spacing: .5px;
@@ -387,6 +352,13 @@ body {
 	padding: 10px;
 	width: 90%;
 	height: 90%;
+	opacity: .8;
+	transition: 1s;
+
+}
+
+.thumbnail:hover {
+	opacity: 1;
 
 }
 
@@ -406,6 +378,11 @@ hr {
 .email a {
 	font-weight: 700;
 	text-decoration: none;
+
+}
+
+.email a:hover{
+	transition: 1s;
 
 	}
 

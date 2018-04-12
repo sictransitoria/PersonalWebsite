@@ -35,15 +35,14 @@ body {
 .navigation a {
 	color: #000;
 	text-decoration: none;
-	padding: 10px;
+	padding: 20px;
 
 }
 
 .navigation a:hover {
-	background-color: #e6e6e6;
-	border-radius: 5px;
-	transition: background .8s linear;
-	color: #ffffff;
+	transition: .7s;
+	opacity: .1;
+	font-color: #696969;
 
 }
 
@@ -85,7 +84,7 @@ body {
 }
 
 .row {
-	padding: 30px 30px 30px 50px;
+	margin: 0px 40px 0px 40px;
 
 }
 
@@ -101,11 +100,17 @@ body {
 
 .sub-div h3 {
 	font-size: 30px;
-	margin: 20px 0px 0px 50px;
-	padding: 30px 0px 0px 5px;
+	margin: 30px 0px 0px 52px;
+	padding: 20px 0px 0px 5px;
 	font-weight: 100;
 	letter-spacing: .5px;
 	clear: both;
+
+}
+
+hr {
+	margin: 75px 0px 0px 0px;
+	border-width: 4px;
 
 }
 
@@ -122,22 +127,59 @@ body {
 
 }
 
-.contactinfo p {
-	display: inline-block;
-	margin: 100px 0px 100px 95px;
-	padding: 0px 0px 0px 0px;
+.back_to_top a {
+	text-decoration: none;
+	border: none;
+	padding: 10px;
+	background-color: #ffffff;
+	opacity: 0.7;
+	transition: 0.5s;
+	border-radius: 5px;
 
 }
 
-.contactinfo p:hover {
-	opacity: .4;
-	transition: background .8s linear;
+.back_to_top a:hover {
+	background-color: #0088cc;
+	opacity: 1;
+	color: #ffffff;
 
 }
+
+.thumbnail {
+	border: none;
+	margin: 50px 0px 0px 0px;
+	opacity: 0.7;
+	transition: 0.7s;
+
+}
+
+.thumbnail:hover {
+	opacity: 1;
+
+}
+
 
 .createdby h6 {
 	text-align: center;
 	font-weight: 500;
+
+}
+
+.email {
+	text-align: center;
+	font-size: 30px;
+	margin: 80px 0px 20px 0px;
+
+}
+
+.email a {
+	font-weight: 700;
+	text-decoration: none;
+
+}
+
+.email a:hover{
+	transition: 1s;
 
 	}
 
@@ -183,9 +225,9 @@ body {
 }
 
 .navigation a:hover {
-	background-color: #d9d9d9;
-	opacity: .3;
-	border-radius: 5px;
+	transition: .7s;
+	opacity: .1;
+	font-color: #696969;
 
 }
 
@@ -229,7 +271,7 @@ body {
 }
 
 .row {
-	padding: 30px 55px 20px 60px;
+	margin: 0px 30px 0px 30px;
 
 }
 
@@ -244,9 +286,9 @@ body {
 }
 
 .sub-div h3 {
-	font-size: 16px;
-	margin: 20px 0px 0px 50px;
-	padding: 30px 0px 0px 5px;
+	font-size: 25px;
+	margin: 10px 25px 10px 53px;
+	padding: 30px 0px 0px 0px;
 	font-weight: 100;
 	letter-spacing: .5px;
 	clear: both;
@@ -255,22 +297,53 @@ body {
 
 .back_to_top {
 	text-align: center;
-	margin: 40px 0px 20px 0px;
+	margin: 40px 30px 30px 0px;
 
 }
 
-.contactinfo {
-	margin-bottom: 40px;
+.back_to_top a {
+	text-decoration: none;
+	border: none;
+	padding: 10px;
+	background-color: #ffffff;
+	opacity: 0.7;
+	transition: 0.5s;
+	border-radius: 5px;
+
 }
 
-.contactinfo p {
-	display: inline-block;
-	margin: 20px 0px 0px 80px;
+.back_to_top a:hover {
+	background-color: #0088cc;
+	opacity: 1;
+	color: #ffffff;
 
 }
 
-.contactinfo p:hover {
-	opacity: .4;
+.thumbnail {
+	border: none;
+	margin: 10px 0px 20px 0px;
+	padding: 10px;
+	width: 90%;
+	height: 90%;
+
+}
+
+hr {
+	margin: 25px 0px 10px 0px;
+	border-width: 4px;
+
+}
+
+.email {
+	text-align: center;
+	font-size: 20px;
+	margin: 20px 6px 20px 0px;
+
+}
+
+.email a {
+	font-weight: 700;
+	text-decoration: none;
 
 	}
 

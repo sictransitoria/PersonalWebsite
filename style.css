@@ -1,4 +1,4 @@
-/* Styling for Personal Website Assignment */
+/* Styling for MichaelOria.com */
 
 /* Laptop, Desktop Displays */
 
@@ -228,10 +228,10 @@ body {
 }
 
 .navigation a.icon {
-    float: left;
+	width: 10%;
     display: block;
     text-decoration: none;
-    margin: 0px 130px;
+    margin: 0 auto;
 	font-size: 30px;
 	color: #000000;
 	transition: .6s;
@@ -298,7 +298,7 @@ body {
 }
 
 .row {
-	margin: 0px 0px 10px 20px
+	margin: 0px 0px 0px 20px;
 
 }
 
@@ -352,15 +352,9 @@ body {
 	padding: 10px;
 	width: 90%;
 	height: 90%;
-	opacity: .8;
-	transition: 1s;
 
 }
 
-.thumbnail:hover {
-	opacity: 1;
-
-}
 
 hr {
 	margin: 25px 0px 10px 0px;

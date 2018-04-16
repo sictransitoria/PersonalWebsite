@@ -1,5 +1,5 @@
-# PersonalWebsite
+# MichaelOria.com
 
-This repository contains the 'Personal Website' assignment that was given by the New York Code and Design Academy. The project contains mostly HTML/CSS as well as a JavaScript plug-in provided by Bootstrap 4.
+This repository contains the assets to MichaelOria.com | This websites main purpose is to serve as my personal website to showcase my work as a Front-End Web Developer / Visual Designer. Written in HTML / CSS / JavaScript. 
 
 <hr>
